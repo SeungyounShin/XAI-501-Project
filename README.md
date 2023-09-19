@@ -11,13 +11,13 @@ Motivation: The increasing prominence of language models in code generation has 
 
 III. Dataset description
 Our dataset is a curated subset from GPT-4, specifically tailored to support the "PAD: Plan (generation), Act (Execution), and Debug (Re-generation)" paradigm.
+One data contains input data (coding scenarios, problems, and requirements) along with the correct output (desired code generation). 
+I collected almost 1K dataset with (using OPENAI API GPT4 costs $200)
 
 **Splitting the Dataset:**
 
-- **Training Dataset**: This subset is the most extensive portion of our dataset, containing input data (coding scenarios, problems, and requirements) along with the correct output (desired code generation). 
-
-- **Validation Dataset**: This subset contains a smaller segment of the data, both input and the corresponding ground truth. It is designed for participants to tune and refine their models, ensuring optimal performance when subjected to unseen data.
-
-- **Test Dataset**: HumanEval, MBPP, DS1000 like coding task ConvFin like Financial Benchmark.
+- **Training Dataset**: 80% of 1K
+- **Validation Dataset**: 10% of 1K
+- **Test Dataset**: 10% of 1K
 
 For project participants, both training and validation datasets will be provided, encompassing the necessary input data alongside the correct output (ground truth). This ensures that participants have the resources to not only learn but also validate the performance of their models.
