@@ -21,3 +21,8 @@ I collected almost 1K dataset with (using OPENAI API GPT4 costs $200)
 - **Test Dataset**: 10% of 1K
 
 For project participants, both training and validation datasets will be provided, encompassing the necessary input data alongside the correct output (ground truth). This ensures that participants have the resources to not only learn but also validate the performance of their models.
+
+
+## Contact
+
+2022021568@korea.ac.kr
