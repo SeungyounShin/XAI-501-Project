@@ -22,6 +22,9 @@ I collected almost 1K dataset with (using OPENAI API GPT4 costs $200)
 
 For project participants, both training and validation datasets will be provided, encompassing the necessary input data alongside the correct output (ground truth). This ensures that participants have the resources to not only learn but also validate the performance of their models.
 
+**Finetunning**
+You need A6000(48G) x 4
+
 
 ## Contact
 
