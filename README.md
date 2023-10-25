@@ -1,4 +1,4 @@
-# XAI-501-Project
+# XAI-606-Project (신경망)
 
 
 I. Project title
